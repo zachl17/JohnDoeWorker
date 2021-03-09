@@ -45,12 +45,11 @@
             // 
             // lblRemainingTotalCount
             // 
-            this.lblRemainingTotalCount.AutoSize = true;
-            this.lblRemainingTotalCount.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.lblRemainingTotalCount.Location = new System.Drawing.Point(453, 336);
+            this.lblRemainingTotalCount.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblRemainingTotalCount.Location = new System.Drawing.Point(248, 487);
             this.lblRemainingTotalCount.Name = "lblRemainingTotalCount";
-            this.lblRemainingTotalCount.Size = new System.Drawing.Size(0, 31);
-            this.lblRemainingTotalCount.TabIndex = 13;
+            this.lblRemainingTotalCount.Size = new System.Drawing.Size(133, 31);
+            this.lblRemainingTotalCount.TabIndex = 21;
             // 
             // lblRemainingTotal
             // 
@@ -65,7 +64,7 @@
             // txtLastName
             // 
             this.txtLastName.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
-            this.txtLastName.Location = new System.Drawing.Point(211, 242);
+            this.txtLastName.Location = new System.Drawing.Point(211, 262);
             this.txtLastName.Name = "txtLastName";
             this.txtLastName.Size = new System.Drawing.Size(136, 30);
             this.txtLastName.TabIndex = 11;
@@ -74,7 +73,7 @@
             // 
             this.lblLastName.AutoSize = true;
             this.lblLastName.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.lblLastName.Location = new System.Drawing.Point(24, 241);
+            this.lblLastName.Location = new System.Drawing.Point(24, 258);
             this.lblLastName.Name = "lblLastName";
             this.lblLastName.Size = new System.Drawing.Size(141, 31);
             this.lblLastName.TabIndex = 10;
@@ -83,7 +82,7 @@
             // txtDebtor
             // 
             this.txtDebtor.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
-            this.txtDebtor.Location = new System.Drawing.Point(211, 9);
+            this.txtDebtor.Location = new System.Drawing.Point(211, 24);
             this.txtDebtor.Name = "txtDebtor";
             this.txtDebtor.Size = new System.Drawing.Size(136, 30);
             this.txtDebtor.TabIndex = 9;
@@ -92,7 +91,7 @@
             // 
             this.lblDebtor.AutoSize = true;
             this.lblDebtor.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.lblDebtor.Location = new System.Drawing.Point(24, 9);
+            this.lblDebtor.Location = new System.Drawing.Point(24, 23);
             this.lblDebtor.Name = "lblDebtor";
             this.lblDebtor.Size = new System.Drawing.Size(96, 31);
             this.lblDebtor.TabIndex = 8;
@@ -100,7 +99,7 @@
             // 
             // btnDone
             // 
-            this.btnDone.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.btnDone.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.btnDone.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnDone.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnDone.Location = new System.Drawing.Point(93, 407);
@@ -113,7 +112,7 @@
             // txtPatientName
             // 
             this.txtPatientName.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
-            this.txtPatientName.Location = new System.Drawing.Point(211, 326);
+            this.txtPatientName.Location = new System.Drawing.Point(211, 340);
             this.txtPatientName.Name = "txtPatientName";
             this.txtPatientName.Size = new System.Drawing.Size(136, 30);
             this.txtPatientName.TabIndex = 17;
@@ -121,7 +120,7 @@
             // txtFirstName
             // 
             this.txtFirstName.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
-            this.txtFirstName.Location = new System.Drawing.Point(211, 162);
+            this.txtFirstName.Location = new System.Drawing.Point(211, 173);
             this.txtFirstName.Name = "txtFirstName";
             this.txtFirstName.Size = new System.Drawing.Size(136, 30);
             this.txtFirstName.TabIndex = 15;
@@ -130,7 +129,7 @@
             // 
             this.lblFirstName.AutoSize = true;
             this.lblFirstName.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.lblFirstName.Location = new System.Drawing.Point(24, 158);
+            this.lblFirstName.Location = new System.Drawing.Point(24, 173);
             this.lblFirstName.Name = "lblFirstName";
             this.lblFirstName.Size = new System.Drawing.Size(146, 31);
             this.lblFirstName.TabIndex = 14;
@@ -140,7 +139,7 @@
             // 
             this.lblPatientName.AutoSize = true;
             this.lblPatientName.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.lblPatientName.Location = new System.Drawing.Point(24, 325);
+            this.lblPatientName.Location = new System.Drawing.Point(24, 336);
             this.lblPatientName.Name = "lblPatientName";
             this.lblPatientName.Size = new System.Drawing.Size(173, 31);
             this.lblPatientName.TabIndex = 20;
@@ -149,7 +148,7 @@
             // txtAccount
             // 
             this.txtAccount.Font = new System.Drawing.Font("Times New Roman", 15F, System.Drawing.FontStyle.Bold);
-            this.txtAccount.Location = new System.Drawing.Point(211, 80);
+            this.txtAccount.Location = new System.Drawing.Point(211, 97);
             this.txtAccount.Name = "txtAccount";
             this.txtAccount.Size = new System.Drawing.Size(136, 30);
             this.txtAccount.TabIndex = 19;
@@ -158,7 +157,7 @@
             // 
             this.lblAccount.AutoSize = true;
             this.lblAccount.Font = new System.Drawing.Font("Times New Roman", 20F, System.Drawing.FontStyle.Bold);
-            this.lblAccount.Location = new System.Drawing.Point(24, 79);
+            this.lblAccount.Location = new System.Drawing.Point(24, 93);
             this.lblAccount.Name = "lblAccount";
             this.lblAccount.Size = new System.Drawing.Size(110, 31);
             this.lblAccount.TabIndex = 18;
@@ -168,7 +167,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(394, 542);
+            this.BackColor = System.Drawing.SystemColors.ScrollBar;
+            this.ClientSize = new System.Drawing.Size(380, 569);
             this.Controls.Add(this.lblPatientName);
             this.Controls.Add(this.txtAccount);
             this.Controls.Add(this.lblAccount);
@@ -184,6 +184,7 @@
             this.Controls.Add(this.btnDone);
             this.Name = "Form1";
             this.Text = "John Doe Worker";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
